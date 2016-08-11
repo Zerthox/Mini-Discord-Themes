@@ -1,0 +1,13 @@
+//META{"name":"Rounded_Square_Avatars","description":"Makes all avatars rounded squares","author":"Zerthox","version":"1.0"}*//{}
+
+.avatar-large,
+.avatar-profile,
+.avatar-small,
+.avatar-xlarge,
+.avatar-xsmall,
+.avatar-xxlarge,
+.avatar-popout,
+.avatar-hint,
+.avatar-wrapper {
+	border-radius: 5% !important;
+}
