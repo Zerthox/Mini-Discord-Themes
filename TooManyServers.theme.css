@@ -1,0 +1,17 @@
+//META{"name":"Too_many_servers","description":"Adds an extra collumn to guilds list","author":"Zerthox","version":"1.0"}*//{}
+
+.guilds-wrapper, .guilds-wrapper .guilds {
+	width: 145px;
+}
+.guilds-wrapper .guilds .guild:not(#bd-pub-li):not(:nth-of-type(1)):nth-of-type(even) {
+	top: -58px;
+    float: right;
+    margin-right: 15px;
+}
+.guilds-wrapper .guilds .guild.unread:not(#bd-pubs-button):not(:nth-of-type(1)):nth-of-type(even):before {
+	left: initial;
+	right: -26px;
+}
+.guilds-wrapper .guilds .guild:first-of-type, .guilds-wrapper .guilds #bd-pub-li, .guilds-wrapper .guilds .friends-online, .guilds-wrapper .guild-separator {
+	margin-left: 32px;
+}
