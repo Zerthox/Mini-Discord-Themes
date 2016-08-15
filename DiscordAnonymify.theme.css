@@ -1,0 +1,41 @@
+//META{"name":"Discord_Anonymify","description":"Blur out usernames, discriminators, avatars etc.","author":"Zerthox","version":"1.0"}*//{}
+
+.avatar-large,
+.avatar-profile,
+.avatar-small,
+.avatar-xlarge,
+.avatar-xsmall,
+.avatar-xxlarge,
+.avatar-popout,
+.avatar-hint,
+.user-name,
+.member-username,
+.username,
+.discriminator,
+.highlight,
+.bot-tag,
+.activity,
+.member-activity,
+.status-text,
+#settings-username,
+#settings-email,
+#settings-current-password,
+.avatar-uploader-inner,
+.channel-members h2 {
+	-webkit-filter: blur(5px);
+}
+.channel-members .member, 
+.channel-members .member .member-inner,
+.channel-members .member .member-username,
+.channel-members .member .member-activity,
+.channel-members .member .member-username-inner,
+.message-group,
+.account .account-details .username,
+.user-popout .username-wrapper .discord-tag,
+.user-popout .username-wrapper .nickname,
+.user-popout .username-wrapper .username,
+#user-profile-modal .header .discord-tag .username,
+.guilds-wrapper .guilds .guild .guild-inner,
+.channel-members h2 {
+	overflow: visible;
+}
