@@ -1,5 +1,5 @@
-# Mini-Discord-Themes
-Some very little themes for Discord
+# Mini DiscordThemes
+Some very little, but maybe useful themes for Discord
 
 ####Rounded Square Avatars
 <img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/roundendsquareavatars.png">
