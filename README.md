@@ -11,5 +11,5 @@ Some very little themes for Discord
 <img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/toomanyservers.png">
 
 ####Discord Anonymify
-<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/anonymify1.png">
-<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/anonymify2.png">
+<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/discordanonymify1.png">
+<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/discordanonymify2.png">
