@@ -9,3 +9,7 @@ Some very little themes for Discord
 
 ####Too Many Servers
 <img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/toomanyservers.png">
+
+####Discord Anonymify
+<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/anonymify1.png">
+<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/anonymify2.png">
