@@ -13,6 +13,9 @@
 	left: initial;
 	right: -16px;
 }
-.guilds-wrapper .guilds .guild:first-of-type, .guilds-wrapper .guilds #bd-pub-li, .guilds-wrapper .guilds .friends-online, .guilds-wrapper .guild-separator {
+.guilds-wrapper .guilds .guild:first-of-type,
+.guilds-wrapper .guilds #bd-pub-li,
+.guilds-wrapper .guilds .friends-online,
+.guilds-wrapper .guild-separator {
 	margin-left: 32px;
 }
