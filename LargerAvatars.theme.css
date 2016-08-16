@@ -1,0 +1,8 @@
+//META{"name":"Larger_Avatars","description":"Makes all avatars larger","author":"Zerthox","version":"1.0"}*//{}
+
+.chat .avatar-large {
+     width: 65px;
+     height: 65px;
+     background-size: cover !important;
+     border-radius: 50%;
+}
