@@ -16,3 +16,6 @@ Some very little, but maybe useful themes for Discord
 
 ####Larger Avatars
 <img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/largeravatars.png">
+
+####Smaller Guilds
+<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/smallerguilds.png">
