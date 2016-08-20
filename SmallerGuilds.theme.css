@@ -1,0 +1,25 @@
+//META{"name":"Smaller_Guilds","description":"Makes guild list smaller","author":"Zerthox","version":"1.0"}*//{}
+
+.guilds-wrapper {
+	width: 60px;
+}
+.guilds-wrapper .guilds .guild,
+.guilds-wrapper .guilds .guild .guild-inner a,
+.guilds-wrapper .guilds .friends-icon,
+.private-channels .channel .icon-friends {
+	width: 30px;
+	height: 30px;
+}
+.guilds-wrapper .guilds .guild .guild-inner a {
+	background-size: cover;
+}
+.guilds-wrapper .guilds .friends-online {
+	margin: 10px -10px;
+}
+.guilds-wrapper .guild-separator:after {
+    margin-left: -5px;
+    margin-right: 10px;
+}
+.guilds-wrapper .guilds-add {
+	line-height: 50%;
+}
