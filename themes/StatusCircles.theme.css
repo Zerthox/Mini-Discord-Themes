@@ -1,0 +1,24 @@
+//META{"name":"Status_Circles","description":"Changes status dot to a circle","author":"Zerthox","version":"1.0"}*//{}
+
+.channel-members .avatar-small .status,
+.private-channels .avatar-small .status {
+    width: 30px;
+	height: 30px;
+    background: transparent !important;
+    border-radius: 50%;
+    top: -2px;
+    left: -2px;
+    box-shadow: 0 0 1px #000 inset;
+}
+.channel-members .avatar-small .status-online,
+.private-channels  .avatar-small .status-online {
+        border: 2px solid green !important;
+}
+.channel-members .avatar-small .status-idle,
+.private-channels  .avatar-small .status-idle {
+        border: 2px solid orange !important;
+}
+.channel-members .avatar-small .status-offline,
+.private-channels  .avatar-small .status-offline {
+        border: 2px solid grey !important;
+}
