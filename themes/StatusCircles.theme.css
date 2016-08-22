@@ -1,4 +1,4 @@
-//META{"name":"Status_Circles","description":"Changes status dot to a circle","author":"Zerthox","version":"1.1"}*//{}
+//META{"name":"Status_Circles","description":"Changes status dot to a circle","author":"Zerthox","version":"1.2"}*//{}
 
 .channel-members .avatar-small .status,
 .private-channels .avatar-small .status {
@@ -25,4 +25,11 @@
 .channel-members .avatar-small .status-streaming,
 .private-channels .avatar-small .status-streaming {
     border: 2px solid #643da7 !important;
+}
+.status.status-typing {
+	width: 30px !important;
+}
+.status.status-typing .spinner .spinner-inner {
+	left: 1px;
+    top: 1px;
 }
