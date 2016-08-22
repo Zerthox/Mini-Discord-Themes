@@ -1,4 +1,4 @@
-//META{"name":"Status_Circles","description":"Changes status dot to a circle","author":"Zerthox","version":"1.0"}*//{}
+//META{"name":"Status_Circles","description":"Changes status dot to a circle","author":"Zerthox","version":"1.1"}*//{}
 
 .channel-members .avatar-small .status,
 .private-channels .avatar-small .status {
@@ -12,13 +12,17 @@
 }
 .channel-members .avatar-small .status-online,
 .private-channels  .avatar-small .status-online {
-        border: 2px solid green !important;
+    border: 2px solid #43b581 !important;
 }
 .channel-members .avatar-small .status-idle,
 .private-channels  .avatar-small .status-idle {
-        border: 2px solid orange !important;
+    border: 2px solid #faa61a !important;
 }
 .channel-members .avatar-small .status-offline,
 .private-channels  .avatar-small .status-offline {
-        border: 2px solid grey !important;
+    border: 2px solid #747f8d !important;
+}
+.channel-members .avatar-small .status-streaming,
+.private-channels .avatar-small .status-streaming {
+    border: 2px solid #643da7 !important;
 }
