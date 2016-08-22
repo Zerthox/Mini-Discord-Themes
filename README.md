@@ -19,3 +19,6 @@ Some very little, but maybe useful themes for Discord
 
 ####Smaller Guilds
 <img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/accb121e09f46a4de64e6b64fe131b496b3c75fb/screenshots/smallerguilds.png">
+
+####Status Circles
+<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/accb121e09f46a4de64e6b64fe131b496b3c75fb/screenshots/statuscircles.png">
