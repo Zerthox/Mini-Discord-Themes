@@ -2,23 +2,23 @@
 Some very little, but maybe useful themes for Discord
 
 ####Rounded Square Avatars
-<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/roundendsquareavatars.png">
+![RoundedSquareAvatars](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/roundendsquareavatars.png)
 
 ####Square Avatars
-<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/squareavatars.png">
+![SquareAvatars](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/squareavatars.png)
 
 ####Too Many Servers
-<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/toomanyservers.png">
+![TooManyServers](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/toomanyservers.png)
 
 ####Discord Anonymify
-<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/discordanonymify1.png">
-<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/discordanonymify2.png">
+![Anonymify1](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/discordanonymify1.png)
+![Anonymify2](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/discordanonymify2.png)
 
 ####Larger Avatars
-<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/largeravatars.png">
+![largerAvatars](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/largeravatars.png)
 
 ####Smaller Guilds
-<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/accb121e09f46a4de64e6b64fe131b496b3c75fb/screenshots/smallerguilds.png">
+![SmallerGuils](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/accb121e09f46a4de64e6b64fe131b496b3c75fb/screenshots/smallerguilds.png)
 
 ####Status Circles
-<img src="https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/accb121e09f46a4de64e6b64fe131b496b3c75fb/screenshots/statuscircles.png">
+![StatusCircles](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/statuscircles.png)
