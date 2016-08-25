@@ -1,0 +1,7 @@
+//META{"name":"Clickable_Pinned_Messages","description":"Makes content of pinned messages (for example links) clickable","author":"Zerthox","version":"1.0"}*//{}
+
+.messages-popout .message-group .sink-interactions.clickable,
+.messages-popout .message-group .avatar-large,
+.messages-popout .message-group h2 {
+	pointer-events: none;
+}
