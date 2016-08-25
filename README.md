@@ -22,3 +22,6 @@ Some very little, but maybe useful themes for Discord
 
 ##Status Circles
 ![StatusCircles](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/statuscircles.png)
+
+##Clickable Pinned Messages
+![ClickablePinnedMessages](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/clickablepinnedmessages.png)
