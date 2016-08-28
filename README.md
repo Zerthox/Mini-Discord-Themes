@@ -15,7 +15,7 @@ Some very little, but maybe useful themes for Discord
 ![Anonymify2](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/discordanonymify2.png)
 
 ##Larger Avatars
-![largerAvatars](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/largeravatars.png)
+![LargerAvatars](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/largeravatars.png)
 
 ##Smaller Guilds
 ![SmallerGuils](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/accb121e09f46a4de64e6b64fe131b496b3c75fb/screenshots/smallerguilds.png)
@@ -25,3 +25,9 @@ Some very little, but maybe useful themes for Discord
 
 ##Clickable Pinned Messages
 ![ClickablePinnedMessages](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/clickablepinnedmessages.png)
+
+##Notepad++ Syntax Highlighting
+![Notepad++SyntaxHighlighting](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/syntaxhighlighting_notepad++.png)
+
+##Sublime Syntax Highlighting
+![SublimeSyntaxHighlighting](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/syntaxhighlighting_sublime.png)
