@@ -1,0 +1,25 @@
+//META{"name":"Sublime_Syntax_Highlighting","description":"Makes Discord's CSS syntax highlighting look like Sublime","author":"Zerthox","version":"1.0"}*//{}
+
+/* CSS SYNTAX HIGHLIGHTING */
+.css .hljs-tag,
+.css .hljs-important,
+.css .hljs-at_rule,
+.css .hljs-keyword {
+	color: #f92672 !important;
+}
+.css .hljs-class,
+.css .hljs-id {
+	color: #a6e300 !important;
+}
+.css .hljs-value,
+.css .hljs-hexcolor,
+.css .hljs-number,
+.css .hljs-function {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+.css .hljs-attribute {
+	color: #82d4e5 !important;
+}
+.css .hljs-comment {
+	color: #686545 !important;
+}
