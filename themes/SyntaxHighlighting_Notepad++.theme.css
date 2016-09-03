@@ -1,4 +1,4 @@
-//META{"name":"Notepad++_Syntax_Highlighting","description":"Makes Discord's CSS syntax highlighting look like Notepad++","author":"Zerthox","version":"1.0"}*//{}
+//META{"name":"Notepad++_Syntax_Highlighting","description":"Makes Discord's CSS syntax highlighting look like Notepad++","author":"Zerthox","version":"1.1"}*//{}
 
 /* CSS SYNTAX HIGHLIGHTING */
 .css .hljs-tag {
@@ -24,4 +24,7 @@
 .css .hljs-at_rule,
 .css .hljs-keyword {
 	color: #0080ff !important;
+}
+.css .hljs-pseudo {
+	color: #ff8000 !important;
 }
