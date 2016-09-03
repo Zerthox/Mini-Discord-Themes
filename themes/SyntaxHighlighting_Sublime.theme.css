@@ -1,4 +1,4 @@
-//META{"name":"Sublime_Syntax_Highlighting","description":"Makes Discord's CSS syntax highlighting look like Sublime","author":"Zerthox","version":"1.0"}*//{}
+//META{"name":"Sublime_Syntax_Highlighting","description":"Makes Discord's CSS syntax highlighting look like Sublime","author":"Zerthox","version":"1.1"}*//{}
 
 /* CSS SYNTAX HIGHLIGHTING */
 .css .hljs-tag,
@@ -22,4 +22,7 @@
 }
 .css .hljs-comment {
 	color: #686545 !important;
+}
+.css .hljs-pseudo {
+	color: #fff !important;
 }
