@@ -1,7 +1,16 @@
-//META{"name":"Too_many_servers","description":"Adds an extra collumn to guilds list","author":"Zerthox","version":"1.1"}*//{}
+//META{"name":"Too_many_servers","description":"Adds an extra collumn to guilds list","author":"Zerthox","version":"1.2"}*//{}
 
-.guilds-wrapper, .guilds-wrapper .guilds {
-	width: 145px;
+.guilds-wrapper,
+.guilds-wrapper .scroller-wrap,
+.guilds-wrapper .guilds {
+	width: 155px;
+}
+.guilds-wrapper .guilds {
+    overflow-y: scroll;
+}
+.guilds-wrapper .guilds::-webkit-scrollbar-thumb,
+.guilds-wrapper .guilds::-webkit-scrollbar-track-piece {
+    visibility: hidden;
 }
 .guilds-wrapper .guilds .guild:not(#bd-pub-li):not(:nth-of-type(1)):nth-of-type(even) {
 	top: -58px;
@@ -11,11 +20,14 @@
 .guilds-wrapper .guilds .guild.unread:not(#bd-pubs-button):not(:nth-of-type(1)):nth-of-type(even):before,
 .guilds-wrapper .guilds .guild.selected:not(#bd-pubs-button):not(:nth-of-type(1)):nth-of-type(even):before {
 	left: initial;
-	right: -16px;
+	right: -21px;
 }
 .guilds-wrapper .guilds .guild:first-of-type,
 .guilds-wrapper .guilds #bd-pub-li,
 .guilds-wrapper .guilds .friends-online,
 .guilds-wrapper .guild-separator {
-	margin-left: 32px;
+	margin-left: calc(50% - 35px);
+}
+.guilds-wrapper .guilds .guilds-add:nth-of-type(odd) {
+    top: -58px;
 }
