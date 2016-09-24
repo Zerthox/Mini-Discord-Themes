@@ -1,4 +1,4 @@
-//META{"name":"Too_many_servers","description":"Adds an extra collumn to guilds list","author":"Zerthox","version":"1.3"}*//{}
+//META{"name":"Too_many_servers","description":"Adds an extra collumn to guilds list","author":"Zerthox","version":"1.4"}*//{}
 
 .guilds-wrapper,
 .guilds-wrapper .scroller-wrap,
@@ -28,6 +28,6 @@
 .guilds-wrapper .guild-separator {
 	margin-left: calc(50% - 35px);
 }
-.guilds-wrapper .guilds .guild:last-of-type:nth-of-type(odd) {
+.guilds-wrapper .guilds :not(.dms) .guild:last-of-type:nth-of-type(odd) {
     top: -58px;
 }
