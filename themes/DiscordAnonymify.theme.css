@@ -1,4 +1,4 @@
-//META{"name":"Discord_Anonymify","description":"Blur out usernames, discriminators, avatars etc.","author":"Zerthox","version":"1.1"}*//{}
+//META{"name":"Discord_Anonymify","description":"Blur out usernames, discriminators, avatars etc.","author":"Zerthox","version":"1.2"}*//{}
 
 .avatar-large,
 .avatar-profile,
@@ -22,7 +22,9 @@
 #settings-current-password,
 .avatar-uploader-inner,
 .channel-members h2,
-.channel-voice-states span {
+.channel-voice-states span,
+.private .channel-name,
+.empty-message strong {
 	-webkit-filter: blur(5px) !important;
 }
 .channel-members .member, 
@@ -38,6 +40,14 @@
 #user-profile-modal .header .discord-tag .username,
 .guilds-wrapper .guilds .guild .guild-inner,
 .channel-members h2,
-.channel-voice-states span{
+.channel-voice-states span,
+.private .channel-name,
+.status-text,
+.username,
+.discord-tag,
+.friends-row,
+.empty-message h1,
+.empty-message strong,
+.title {
 	overflow: visible !important;
 }
