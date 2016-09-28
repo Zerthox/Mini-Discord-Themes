@@ -1,7 +1,8 @@
-//META{"name":"Status_Circles","description":"Changes status dot to a circle","author":"Zerthox","version":"1.3"}*//{}
+//META{"name":"Status_Circles","description":"Changes status dot to a circle","author":"Zerthox","version":"1.4"}*//{}
 
 .channel-members .avatar-small .status,
-.private-channels .avatar-small .status {
+.private-channels .avatar-small .status,
+.account .avatar-small .status {
     width: 30px;
     height: 30px;
     background: transparent !important;
@@ -11,23 +12,28 @@
     box-shadow: 0 0 1px #000 inset;
 }
 .channel-members .avatar-small .status-online,
-.private-channels  .avatar-small .status-online {
+.private-channels  .avatar-small .status-online,
+.account .avatar-small .status-online {
     border: 2px solid #43b581 !important;
 }
 .channel-members .avatar-small .status-idle,
-.private-channels  .avatar-small .status-idle {
+.private-channels  .avatar-small .status-idle,
+.account .avatar-small .status-idle {
     border: 2px solid #faa61a !important;
 }
 .channel-members .avatar-small .status-dnd,
-.private-channels  .avatar-small .status-dnd {
+.private-channels  .avatar-small .status-dnd,
+.account .avatar-small .status-dnd {
     border: 2px solid #f04747 !important;
 }
 .channel-members .avatar-small .status-offline,
-.private-channels  .avatar-small .status-offline {
+.private-channels  .avatar-small .status-offline,
+.account .avatar-small .status-offline {
     border: 2px solid #747f8d !important;
 }
 .channel-members .avatar-small .status-streaming,
-.private-channels .avatar-small .status-streaming {
+.private-channels .avatar-small .status-streaming,
+.account .avatar-small .status-streaming {
     border: 2px solid #643da7 !important;
 }
 .status.status-typing {
