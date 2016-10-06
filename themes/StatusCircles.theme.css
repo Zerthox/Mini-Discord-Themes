@@ -1,5 +1,6 @@
-//META{"name":"Status_Circles","description":"Changes status dot to a circle","author":"Zerthox","version":"1.4b"}*//{}
+//META{"name":"Status_Circles","description":"Changes status dot to a circle","author":"Zerthox","version":"1.5"}*//{}
 
+/* "Status Circles v1.5" by Zerthox */
 .channel-members .avatar-small .status,
 .private-channels .avatar-small .status,
 .account .avatar-small .status {
@@ -26,9 +27,9 @@
 .account .avatar-small .status-dnd {
     border: 2px solid #f04747 !important;
 }
-.channel-members .avatar-small .status-offline,
-.private-channels  .avatar-small .status-offline,
-.account .avatar-small .status-offline {
+.channel-members .avatar-small .status-invisible,
+.private-channels  .avatar-small .status-invisible,
+.account .avatar-small .status-invisible {
     border: 2px solid #747f8d !important;
 }
 .channel-members .avatar-small .status-streaming,
