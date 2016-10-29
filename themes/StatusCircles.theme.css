@@ -1,12 +1,12 @@
-//META{"name":"Status_Circles","description":"Changes status dot to a circle <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/Zerthox' target='_blank'>@Zerthox</a></b></span>","author":"Zerthox","version":"1.5"}*//{}
+//META{"name":"Status_Circles","description":"Changes status dot to a circle <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/Zerthox' target='_blank'>@Zerthox</a></b></span>","author":"Zerthox","version":"1.7"}*//{}
   
 
-/* "Status Circles v1.6" by Zerthox */
+/* "Status Circles v1.7" by Zerthox */
 .channel-members .avatar-small .status,
 .private-channels .avatar-small .status,
 .account .avatar-small .status {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
     background: transparent;
     border-radius: 50%;
     top: -2px;
