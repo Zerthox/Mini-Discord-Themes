@@ -10,6 +10,10 @@ Some very little, but maybe useful themes for Discord
 ##Too Many Servers
 ![TooManyServers](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/toomanyservers.png)
 
+##Too Many Servers
+![HideChannels1](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/hidechannels1.png)
+![HideChannels2](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/hidechannels2.png)
+
 ##Discord Anonymify
 ![Anonymify1](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/discordanonymify1.png)
 ![Anonymify2](https://cdn.rawgit.com/Zerthox/Mini-Discord-Themes/master/screenshots/discordanonymify2.png)
