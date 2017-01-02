@@ -1,0 +1,27 @@
+//META{"name":"HideChannels","description":"Hide channels and show them upon hovering the server list <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/Zerthox' target='_blank'>@Zerthox</a></b></span>","author":"<a href='https://github.com/Zerthox' target='_blank'>Zerthox</a>","version":"1.0"}*//{}
+
+:root {
+    --duration: .3s;
+    --delay: .2s;
+}
+.channels-wrap {
+    width: 0;
+    transition: width var(--duration) ease;
+    transition-delay: var(--delay);
+}
+.guilds-wrapper:hover + .channels-wrap {
+    width: 240px;
+    transition-delay: 0s;
+}
+.channels-wrap .account {
+    width: 220px;
+    z-index: 1;
+}
+.chat form .channel-textarea {
+    transition: margin-left var(--duration) ease;
+    transition-delay: 0s;
+}
+.guilds-wrapper:not(:hover) ~ .chat form .channel-textarea {
+    margin-left: 240px;
+    transition-delay: var(--delay);
+}
