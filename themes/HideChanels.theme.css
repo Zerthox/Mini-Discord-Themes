@@ -1,4 +1,4 @@
-//META{"name":"HideChannels","description":"Hide channels and show them upon hovering the server list <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/Zerthox' target='_blank'>@Zerthox</a></b></span>","author":"<a href='https://github.com/Zerthox' target='_blank'>Zerthox</a>","version":"1.1"}*//{}
+//META{"name":"HideChannels","description":"Hide channels and show them upon hovering the server list <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/Zerthox' target='_blank'>@Zerthox</a></b></span>","author":"<a href='https://github.com/Zerthox' target='_blank'>Zerthox</a>","version":"1.2"}*//{}
 
 :root {
     --duration: .3s;
@@ -15,6 +15,9 @@
 .guilds-wrapper:hover + .channels-wrap {
     width: 240px;
     transition-delay: 0s;
+}
+.channels-wrap header {
+    width: 240px;
 }
 .channels-wrap .account {
     width: 220px;
