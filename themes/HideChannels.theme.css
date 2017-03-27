@@ -1,33 +1,45 @@
-//META{"name":"HideChannels","description":"Hide channels and show them upon hovering the server list <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/Zerthox' target='_blank'>@Zerthox</a></b></span>","author":"<a href='https://github.com/Zerthox' target='_blank'>Zerthox</a>","version":"1.3"}*//{}
+//META{"name":"HideChannels","description":"Hide channels and show them upon hovering the server list <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/Zerthox' target='_blank'>@Zerthox</a></b></span>","author":"<a href='https://github.com/Zerthox' target='_blank'>Zerthox</a>","version":"2.0"}*//{}
 
 :root {
     --duration: .3s;
     --delay: .2s;
 }
 .channels-wrap {
-    width: 0;
-    transition: width var(--duration) ease;
+    max-width: 0;
+    transition: max-width var(--duration) ease;
     transition-delay: var(--delay);
 }
 .channels-wrap:hover {
-    width: 240px;
+    max-width: 100vw;
 }
 .guilds-wrapper:hover + .channels-wrap {
-    width: 240px;
+    max-width: 100vw;
     transition-delay: 0s;
 }
 .channels-wrap header {
-    width: 240px;
-}
-.channels-wrap .account {
-    width: 220px;
-    z-index: 1;
+    max-width: 100vw;
 }
 .chat form {
     transition: margin-left var(--duration) ease;
     transition-delay: 0s;
 }
-.guilds-wrapper:not(:hover) + .channels-wrap:not(:hover) + .chat form{
-    margin-left: 260px;
+.guilds-wrapper:not(:hover) + .channels-wrap:not(:hover) + .chat form {
+    margin-left: 120px;
     transition-delay: var(--delay);
+}
+.account > :not(.btn-group) {
+    transition: all var(--duration) ease;
+    transition-delay: var(--delay); 
+}
+.guilds-wrapper:not(:hover) + .channels-wrap:not(:hover) .account > :not(.btn-group) {
+	max-width: 0;
+    margin: 0;
+    padding: 0;
+}
+.guilds-wrapper:hover + .channels-wrap .account > :not(.btn-group){
+    max-width: 100vw;
+    transition-delay: 0s;
+}
+.account .btn-group {
+    z-index: 2;
 }
