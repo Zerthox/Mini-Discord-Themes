@@ -36,7 +36,7 @@
     margin: 0;
     padding: 0;
 }
-.guilds-wrapper:hover + .channels-wrap .account > :not(.btn-group){
+.guilds-wrapper:hover + .channels-wrap .account > :not(.btn-group) {
     max-width: 100vw;
     transition-delay: 0s;
 }
