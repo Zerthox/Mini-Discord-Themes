@@ -5,7 +5,8 @@
 
 .status-2Devx1,
 .statusProfile-29OBzn,
-.private-channels .avatar-small .status {
+.private-channels .avatar-small .status,
+.container-iksrDt .avatar-small .status{
   width: 100% !important;
   height: 100% !important;
   background: transparent;
@@ -16,17 +17,20 @@
 }
 
 .statusOnline-1Mp2_H,
-.private-channels .avatar-small .status-online {
+.private-channels .avatar-small .status-online,
+.container-iksrDt .avatar-small .status-online{
   border: 2px solid #43b581 !important;
 }
 
 .statusIdle-2AQdvu,
-.private-channels .avatar-small .status-idle {
+.private-channels .avatar-small .status-idle,
+.container-iksrDt .avatar-small .status-idle{
   border: 2px solid #faa61a !important;
 }
 
 .statusDnd-35xAXU,
-.private-channels .avatar-small .status-dnd {
+.private-channels .avatar-small .status-dnd,
+.container-iksrDt .avatar-small .status-dnd{
   border: 2px solid #f04747 !important;
 }
 
@@ -37,12 +41,14 @@
 
 .channel-members .avatar-small .status-invisible,
 .private-channels .avatar-small .status-invisible,
-.account .avatar-small .status-invisible {
+.account .avatar-small .status-invisible,
+.container-iksrDt .avatar-small .status-invisible{
   border: 2px solid #747f8d !important;
 }
 
+.avatarOffline-YdYOwX,
 .private-channels .avatar-small .status-offline {
-  border: 2px solid transparent !important;
+  border: 2px solid #747f8d !important;
 }
 
 .spinner-2szMS3 {
